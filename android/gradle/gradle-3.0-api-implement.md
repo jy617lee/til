@@ -33,14 +33,14 @@ libraryA가 libraryB에 dependent할 경우 app에서는 A에만 직접 접근�
 ```gradle
 dependencies {
 	. . . .
-	implementation project(path: ':libraryA')		
+	implementation project(path: ':libraryA')
 }
 ```
 #####  gradle app
 ```gradle
 dependencies {
 	. . . .
-	implementation project(path: ':libraryA')		
+	implementation project(path: ':libraryA')
 }
 ```
 
@@ -53,6 +53,6 @@ public void foo(){
 ```
 
 
-###참고한 링크 
+### 참고한 링크
 1. 한글 번역: https://sikeeoh.github.io/2017/08/28/implementation-vs-api-android-gradle-plugin-3/
 2. 영문 : https://medium.com/mindorks/implementation-vs-api-in-gradle-3-0-494c817a6fa
