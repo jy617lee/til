@@ -33,7 +33,7 @@ libraryA가 libraryB에 dependent할 경우 app에서는 A에만 직접 접근�
 ```gradle
 dependencies {
 	. . . .
-	implementation project(path: ':libraryA')
+	implementation project(path: ':libraryB')
 }
 ```
 #####  gradle app
