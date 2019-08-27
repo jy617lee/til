@@ -5,3 +5,5 @@ Today I Learned
 * Pandas
 * Android
 * Java
+* javascript
+* react
